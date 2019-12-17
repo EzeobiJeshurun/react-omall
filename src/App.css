@@ -1,0 +1,85 @@
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232538;
+  --mainYellow: #ffa400;
+}
+
+body {
+   /*font-family: 'Cinzel Decorative', cursive !important;*/
+  /*font-family: 'Roboto', sans-serif !important;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Cinzel Decorative', cursive;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.text-title2{
+  font-family: 'Cinzel Decorative', cursive;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 0.6rem !important;
+  font-weight: bolder;
+
+}
+
+.empty-cart{
+  display: flex;
+  height: 40vw;
+  align-items: center;
+}
+.text-blue {
+  color: var(--mainBlue);
+  font-size: 1.6rem;
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.navbar-brand {
+  height: 35px;
+  line-height: 35px;
+  padding-right: 10px;
+}
+
+.title-element {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav {
+  margin-right: 0px !important;
+}
+
+.btn-black{
+  background: transparent !important;
+  text-transform: capitalize !important;
+  font-size: 0.8rem !important;
+  color: var(--mainDark) !important;
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  color: var(--mainYellow) !important;
+  font-size: 1.2rem;
+}
+
+.cart-total{
+  font-size: 0.7rem !important;
+}
+
+
