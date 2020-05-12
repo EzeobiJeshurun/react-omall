@@ -13,7 +13,7 @@ export default class ProductList extends Component {
                 <div className="py-2 mx-3">
                  <div className="Container">
                 
-                    <Title name="our" title="products" />
+                    <Title name="Excellence..." title="Be different." />
                      {/* Bellow is the product row*/}
                      <div className="row">
                          <ProductConsumer>
