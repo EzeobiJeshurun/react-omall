@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import logo  from '../logo.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
+import Button from '@material-ui/core/Button';
+import Hidden from '@material-ui/core/Hidden';
 
 import { ButtonContainer } from "./Button";
 
@@ -21,7 +23,12 @@ export default class Navbar extends Component {
                         </Link>
                     </li>
                 </ul>
-                <Link to="/Cart" className="ml-auto">
+             <Link  to="/" className="ml-auto" >
+             <ButtonContainer >
+                 Home
+             </ButtonContainer>
+             </Link>
+                <Link to="/Cart" >
                     <ButtonContainer>
                         <span className="mr-2">
                             <FontAwesomeIcon icon="cart-plus"/>

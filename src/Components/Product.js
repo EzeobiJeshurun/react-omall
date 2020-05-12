@@ -94,7 +94,7 @@ const ProductWrapper = styled.div`
 }
 .img-container {
    background: white;
-   
+
     position:relative;
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@ const ProductWrapper = styled.div`
 }
 
 .cart-btn: hover{
-    color: var(--mainBlue);
+    color: var(--lightBlue);
     cusor: pointer;
 }
 
@@ -124,7 +124,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--lightBlue);
+    background: var(--mainBlue);
     border:none;
     color: var(--mainWhite);
     font-size: 1.1rem;
