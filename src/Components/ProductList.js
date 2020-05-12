@@ -14,7 +14,7 @@ export default class ProductList extends Component {
                  <div className="Container">
                 
                     <Title name="Excellence..." title="Be different." />
-                     {/* Bellow is the product row*/}
+                     {/* Bellow is the product row   */}
                      <div className="row">
                          <ProductConsumer>
                              {value=>{

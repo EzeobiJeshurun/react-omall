@@ -23,8 +23,8 @@ export default class Navbar extends Component {
                         </Link>
                     </li>
                 </ul>
-             <Link  to="/" className="ml-auto" >
-             <ButtonContainer >
+             <Link  to="/" className="ml-auto d-none d-sm-block"  >
+             <ButtonContainer className="d-none d-sm-block" >
                  Home
              </ButtonContainer>
              </Link>
