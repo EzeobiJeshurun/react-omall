@@ -53,6 +53,8 @@ export default class Product extends Component {
         )
     }
 }
+
+//
 Product.propTypes = {
 
     product: PropTypes.shape({
@@ -91,6 +93,7 @@ const ProductWrapper = styled.div`
     }
 }
 .img-container {
+   background: white;
    
     position:relative;
     display: flex;

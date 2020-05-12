@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import logo  from '../logo.svg';
+import logo  from '../logo.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
@@ -17,7 +17,7 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item">
                         <Link to="/" className="nav-link">
-                            products
+                            WeWinGlobe
                         </Link>
                     </li>
                 </ul>
